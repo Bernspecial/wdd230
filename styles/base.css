@@ -1,16 +1,16 @@
-:root{
+:root {
     --background_color1: #53311D;
-    --background_color2: #233B5C ;
+    --background_color2: #233B5C;
     --background_color3: #FFCCCC;
     --background_color4: #CCD5AE;
     --background_color5: #030D14;
     --background_color6: #2B3E54;
     --text_color: #233B5C;
     --secondary-color: #CcD5AE;
-  --accent1-color: #453321;
+    --accent1-color: #453321;
 }
 
-body{
+body {
     background-color: var(--background_color2);
     margin: 1px 0;
 }
@@ -65,9 +65,13 @@ nav a {
     color: var(--background_color4);
 
 }
+nav a:hover{
+    color: var(--background_color3);
+    text-decoration: underline;
+}
 
 nav .link1 {
-    background-color:var(--background_color6);
+    background-color: var(--background_color6);
     padding: 30px;
     font-weight: bolder;
     color: var(--background_color4);
@@ -116,10 +120,20 @@ main h1 {
     font-family: "Anton";
     font-weight: lighter;
 }
-.card ul{
-color: var(--background_color4);
+
+.card ul {
+    color: var(--background_color4);
 }
-.card p{
+
+.listhome {
+    color: var(--background_color4);
+    text-decoration: none;
+    font-family: "Lato";
+}
+.listhome:hover{
+    color: var(--background_color3);
+}
+.card p {
     padding: 5px;
     color: var(--background_color4);
 }
@@ -134,7 +148,7 @@ color: var(--background_color4);
     color: var(--background_color4);
 }
 
-.flag{
+.flag {
     width: 50px;
     height: 50px;
 }
