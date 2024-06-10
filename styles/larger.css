@@ -1,0 +1,50 @@
+@media screen and (min-width: 900px) {
+
+    .header {
+        width: 50%;
+        display: flex;
+    }
+
+
+
+    .header img {
+        box-shadow: 1px 1px 10px;
+        margin-left: 30px;
+    }
+
+    header span {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+
+
+    nav {
+        display: flex;
+    }
+
+    nav a {
+        flex: 1 1 100px;
+    }
+
+    nav .link1 {
+        padding: 15px;
+
+    }
+
+    main h1{
+        text-align: left;
+    }
+    #card-section {
+        display: grid;
+        grid-template:1fr / 2fr 1fr;
+        column-gap: 10px;
+        margin: 5px 0;
+        margin-bottom: 100px;
+    }
+
+    
+    .card {
+        width: 100%;
+        box-shadow: 1px 1px 10px black;
+    }
+}

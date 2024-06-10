@@ -1,0 +1,140 @@
+:root{
+    --background_color1: #53311D;
+    --background_color2: #233B5C ;
+    --background_color3: #FFCCCC;
+    --background_color4: #CCD5AE;
+    --background_color5: #030D14;
+    --background_color6: #2B3E54;
+    --text_color: #233B5C;
+    --secondary-color: #CcD5AE;
+  --accent1-color: #453321;
+}
+
+body{
+    background-color: var(--background_color2);
+    margin: 1px 0;
+}
+
+header {
+    background-color: var(--background_color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header {
+    background-color: var(--background_color1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header img {
+    /* box-shadow: 1px 1px 10px; */
+    margin-right: 40px;
+}
+
+header span {
+    /* text-align: center; */
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Anton";
+}
+
+header span {
+    color: var(--background_color4);
+
+}
+
+nav {
+    background-color: var(--background_color5);
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-family: "Lato";
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--background_color4);
+
+}
+
+nav .link1 {
+    background-color:var(--background_color6);
+    padding: 30px;
+    font-weight: bolder;
+    color: var(--background_color4);
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-family: "Anton";
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: -10px;
+    color: var(--background_color4);
+}
+
+.hr {
+    color: 1px solid black;
+    margin-bottom: 40px;
+}
+
+
+#card-section {
+    margin: 1rem 2vw;
+    font-family: "Lato";
+}
+
+.card {
+    border: 1px solid var(--background_color2);
+    background-color: var(--background_color6);
+    margin: 1em auto;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    /* margin-top: 50px; */
+}
+
+.card h2 {
+    color: var(--background_color4);
+    background-color: var(--background_color5);
+    padding: .75em 0;
+    margin-top: 0px;
+    text-align: center;
+    font-family: "Anton";
+    font-weight: lighter;
+}
+.card ul{
+color: var(--background_color4);
+}
+.card p{
+    padding: 5px;
+    color: var(--background_color4);
+}
+
+
+.footer {
+    background-color: var(--background_color1);
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Lato";
+    color: var(--background_color4);
+}
+
+.flag{
+    width: 50px;
+    height: 50px;
+}
