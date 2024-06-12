@@ -7,4 +7,4 @@ document.querySelector("#year").textContent = new Date().toLocaleDateString("en-
 const lastModified = document.lastModified;
 color = document.querySelector("#lastModified");
 color.style.color = "#FFCCCC";
-color.textContent = (`This site is last modified: ${lastModified}`);
+color.textContent = (`This site was last modified: ${lastModified}`);
