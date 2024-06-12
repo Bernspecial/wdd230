@@ -1,0 +1,109 @@
+:root {
+    /* Color scheme for this project */
+    --bodybackgroundcolor: #D5BDAF;
+    --primarybackgroundcolor: #D6CCC2;
+    --primarycolor1: #0E1208;
+    --secondarycolor: #312416;
+
+    /* Google font for this project */
+    --Text-Heading1: "Oswald";
+    --SubText-Heading: "Montserrat";
+    --Paragraph-Text: "Exo 2";
+
+}
+
+body {
+    background-color: white;
+    margin: 0 auto;
+    color: var(--primarycolor1);
+    /* margin-top: 250px; */
+    padding: 10px;
+    /* text-align: center; */
+}
+
+header {
+    background-color: var(--primarybackgroundcolor);
+    padding: 5px;
+    text-align: center;
+    font-family: var(--Text-Heading1);
+    color: var(--primarycolor1);
+    font-size: 10px;
+    font-weight: bolder;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid var(--primarycolor1); */
+    border-radius: 3px;
+
+}
+
+.h1p {
+    font-size: 10px;
+}
+
+h2 {
+    font-family: var(--SubText-Heading);
+    color: var(--secondarycolor);
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
+p {
+    font-size: 20px;
+    font-family: var(--Paragraph-Text);
+
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.bdc {
+    background-color: var(--bodybackgroundcolor);
+    color: var(--primarycolor1);
+}
+
+.pbc {
+    background-color: var(--primarybackgroundcolor);
+    color: var(--primarycolor1);
+}
+
+.pc {
+    background-color: var(--primarycolor1);
+    color: var(--bodybackgroundcolor);
+}
+
+.sc {
+    background-color: var(--secondarycolor);
+    color: var(--bodybackgroundcolor);
+}
+
+table th {
+    font-size: 15px;
+    font-family: var(--Paragraph-Text);
+    background-color: var(--primarycolor1);
+    color: var(--bodybackgroundcolor);
+
+}
+
+table td {
+    width: 25%;
+    height: 3em;
+}
+
+
+h3 {
+    font-family: var(--SubText-Heading);
+    color: var(--secondarycolor);
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+img {
+    width: 100%;
+}
