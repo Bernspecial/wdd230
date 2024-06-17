@@ -10,6 +10,7 @@
     --accent1-color: #453321;
 }
 
+
 body {
     background-color: var(--background_color2);
     margin: 1px 0;
@@ -87,9 +88,11 @@ main h1 {
     font-family: "Antonio";
     font-size: 30px;
     text-align: center;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
     color: var(--background_color4);
 }
+
+
 
 .hr {
     margin-bottom: 40px;
