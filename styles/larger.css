@@ -24,6 +24,7 @@
 
     nav a {
         flex: 1 1 100px;
+        display: block;
     }
 
     nav .link1 {
@@ -31,20 +32,33 @@
 
     }
 
-    main h1{
+    main h1 {
         text-align: left;
     }
+
     #card-section {
         display: grid;
-        grid-template:1fr / 2fr 1fr;
+        grid-template: 1fr / 2fr 1fr;
         column-gap: 10px;
         margin: 5px 0;
         margin-bottom: 100px;
     }
 
-    
+
     .card {
         width: 100%;
         box-shadow: 1px 1px 10px black;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #darkMode::after {
+        content: "Toggle for Dark Mode";
+        font-family: "Antonio";
+        margin-top: 3px;
+        padding: 2px;
+        text-align: center;
     }
 }
