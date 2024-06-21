@@ -171,7 +171,7 @@ h3 {
 section {
     /* background-color: var(--primarybackgroundcolor); */
     max-width: none;
-    width: none;
+    /* width: none; */
     margin: 0 auto;
     text-align: left;
     padding: 5px;

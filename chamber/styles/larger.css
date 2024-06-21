@@ -1,6 +1,4 @@
 @media screen and (min-width: 1000px) {
-    body {}
-
     header {
         position: fixed;
         top: 0;
@@ -83,7 +81,7 @@
 
     .footerDiv {
         display: grid;
-        text-align: none;
+        text-align: left;
     }
 
     .div2 {
