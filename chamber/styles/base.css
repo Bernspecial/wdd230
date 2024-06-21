@@ -1,0 +1,259 @@
+:root {
+    /* Color scheme for this project */
+    --bodybackgroundcolor: #D5BDAF;
+    --primarybackgroundcolor: #D6CCC2;
+    --primarycolor1: #0E1208;
+    --secondarycolor: #312416;
+
+    /* Google font for this project */
+    --Text-Heading1: "Oswald";
+    --SubText-Heading: "Montserrat";
+    --Paragraph-Text: "Exo 2";
+}
+
+body {
+    background-color: whitesmoke;
+    /* margin: 1px 0; */
+    padding: 0px 1px;
+    min-width: 500px
+}
+
+
+header {
+    background-color: var(--bodybackgroundcolor);
+    height: 35px;
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; */
+
+}
+
+h1 {
+    font-size: 15px;
+    font-family: var(--Text-Heading1);
+    color: var(--primarycolor1);
+    /* border: solid black; */
+}
+
+.header a {
+    text-decoration: none;
+}
+
+h1::before {
+    content: "🏯";
+}
+
+form {
+    display: none;
+}
+
+#menu {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+    color: var(--primarycolor1);
+    background-color: var(--bodybackgroundcolor);
+
+    box-shadow: 1px 1px 2px;
+
+    padding: 5px 10px;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.open a {
+    display: flex;
+
+}
+
+
+nav {
+    padding: 10px;
+    display: flex;
+
+}
+
+nav a {
+    flex: 1 1 100px;
+    padding: 10px;
+    display: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--bodybackgroundcolor);
+    border-radius: 10px;
+    font-family: var(--Paragraph-Text);
+    color: var(--primarycolor1);
+}
+
+
+main {
+    margin-top: 10px;
+}
+
+.heroImage {
+    display: block;
+    /* grid-template: 1fr 1fr / 1fr 1fr 1fr; */
+    /* border-radius: 5px; */
+    /* background-color: var(--primarybackgroundcolor); */
+}
+
+.heroImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.heroAnimation5 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.heroWelcome {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--Text-Heading1);
+    font-size: 30px;
+    color: var(--secondarycolor);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.heroAnimation1 {
+    display: block;
+}
+
+.heroAnimation2 {
+    display: none;
+}
+
+.heroAnimation3 {
+    display: none;
+    /* width: 100px; */
+    /* height: 100px; */
+}
+
+.heroAnimation4 {
+    display: none;
+}
+
+.heroAnimation5 {
+    display: none;
+}
+
+h2 {
+    font-family: var(--Text-Heading1);
+    font-size: 30px;
+    color: var(--primarycolor1);
+}
+
+h3 {
+    font-family: var(--Text-Heading1);
+    font-size: 20px;
+    color: var(--primarycolor1);
+    text-decoration: underline;
+}
+
+.section {
+    background-color: whitesmoke;
+    /* margin-top: 20px; */
+}
+
+section {
+    /* background-color: var(--primarybackgroundcolor); */
+    max-width: none;
+    width: none;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5px;
+    /* border-radius: 12px; */
+}
+
+p {
+    font-family: var(--Paragraph-Text);
+    color: var(--secondarycolor);
+    font-size: 25px;
+    padding: 0;
+}
+
+ul {
+    text-align: left;
+    display: block;
+}
+
+ul p {
+    font-size: 20px;
+    padding: 0%;
+    flex: 1 1 100px;
+}
+
+ul li {
+    flex: 1 1 100px;
+}
+
+.footerDiv {
+    background-color: var(--bodybackgroundcolor);
+    padding: 10px;
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.div1 {
+    margin: 0 auto;
+}
+
+.div2 {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.div2 a {
+    text-decoration: none;
+    color: var(--primarycolor1);
+    font-weight: bolder;
+}
+
+.div3 {
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.callToAction {
+    border: 1px solid black;
+    margin-top: 1px;
+    width: 100%;
+    height: 100px;
+    display: block;
+    text-align: center;
+    background-color: var(--secondarycolor);
+    border-radius: 5px;
+
+}
+
+h4 {
+    /* border: 1px solid black; */
+    margin-top: 4px;
+    /* flex: 0 0 100px; */
+    color: var(--primarybackgroundcolor);
+    font-size: 15px;
+}
+
+button {
+    height: 30px;
+    font-family: var(--SubText-Heading);
+}

@@ -1,0 +1,92 @@
+@media screen and (min-width: 1000px) {
+    body {}
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    form {
+        display: block;
+        position: absolute;
+        top: 0.50rem;
+        right: 1rem;
+    }
+
+    #menu {
+        margin-top: 50px;
+    }
+
+    .heroImage {
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr 1fr;
+        border-radius: 5px;
+        background-color: var(--primarybackgroundcolor);
+    }
+
+    .heroAnimation1 {
+        display: block;
+    }
+
+    .heroAnimation2 {
+        display: block;
+    }
+
+    .heroAnimation3 {
+        display: block;
+    }
+
+    .heroAnimation4 {
+        display: block;
+    }
+
+    .heroAnimation5 {
+        display: block;
+    }
+
+    .heroWelcome {
+        margin-top: 100px;
+        padding: 10px;
+    }
+
+    .callToAction {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+
+    }
+
+    h4 {
+        font-size: 25px;
+        flex: 0.70 0.70 100px;
+    }
+
+    section {
+        text-align: center;
+        max-width: 960px;
+        width: 80%;
+    }
+
+    p {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    ul {
+        text-align: left;
+        display: flex;
+    }
+
+    .footerDiv {
+        display: grid;
+        text-align: none;
+    }
+
+    .div2 {
+        margin-top: 32px;
+    }
+}
