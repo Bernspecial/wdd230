@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive-images</title>
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/AbaTemple1.webp" media="(max-width: 400px)">
+                <source srcset="images/AbaTemple2.webp" media="(max-width: 1000px)">
+                <source srcset="images/AbaTemple3.webp" media="(max-width: 1500px)">
+                <img srcset="images/AbaTemple3.webp" alt="Aba Temple gallery" width="1500" height="750">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>

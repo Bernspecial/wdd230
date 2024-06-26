@@ -34,7 +34,7 @@
     <div id="darkMode"><img src="images/darkmode.webp" alt="darkmode-logo" width="25" height="25"></div>
     <header>
         <div class="header">
-            <img src="images/berns.jpg" alt="Michael Bernard Olayemi image">
+            <img src="images/berns.webp" alt="Michael Bernard Olayemi image">
             <span class="mbo">Michael Bernard Olayemi</span>
         </div>
     </header>
@@ -48,6 +48,17 @@
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
         <hr class="hr">
+        <div class="heroImage">
+            <picture>
+                <source srcset="images/Temple01.webp" media="(max-width: 400px)">
+                <!-- <source srcset="images/Temple02.webp" media="(max-width: 960px)"> -->
+                <img src="images/Temple02.webp" alt=" My favorite Saltlake Temple image" width="960" height="540">
+            </picture>
+            <div class="span">
+                <span>Salt Lake Temple</span>
+            </div>
+        </div>
+        <hr class="hrhero">
         <div id="card-section">
 
             <section class="card">
@@ -71,7 +82,13 @@
                             "Hamburger" Menu</a> | <a class="listhome"
                             href="https://bernspecial.github.io/wdd230/week02/bom.html">JavaScript: DOM Manipulation</a>
                     </li>
-                    <li>Week 03</li>
+                    <li>Week 03: <a class="listhome" href="week03/images/landscape.webp">WebP</a> | <a class="listhome"
+                            href="https://byui-cse.github.io/wdd230-ww-course/week03/prepare-lazyload.html">Lazy
+                            Loading</a> | <a class="listhome"
+                            href="https://byui-cse.github.io/wdd230-ww-course/week03/prepare-responsive-images.html">Responsive
+                            Images: srcset</a> | <a class="listhome"
+                            href="https://bernspecial.github.io/wdd230/week03/bom.html">Web Storage API -
+                            localStorage</a></li>
                     <li>Week 04</li>
                     <li>Week 05</li>
                     <li>Week 06</li>
@@ -82,10 +99,19 @@
             <section class="card">
                 <h2>Information</h2>
                 <p>Ibadan, Nigeria Weather Forecast, 30°C Mostly Cloudy.</p>
-                <p>Page Visits: 40</p>
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
             </section>
         </div>
+        <div class="googleMap">
+            <h3>Ibadan Map</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62881.79677775829!2d3.887638131457465!3d7.379026167710536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d77eeff086f%3A0x3b33e0f76e8e04a9!2sIbadan%2C%20Oyo!5e0!3m2!1sen!2sng!4v1719420245802!5m2!1sen!2sng"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
     </main>
+    
     <footer>
         <div class="footer">
             <p>&copy; <span id="year"></span> | Michael Bernard Olayemi | Ibadan Oyo State, Nigeria <img class="flag"

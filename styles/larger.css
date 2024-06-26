@@ -54,11 +54,41 @@
         display: none;
     }
 
+    #darkMode {
+        color: #CCD5AE;
+    }
+
     #darkMode::after {
         content: "Toggle for Dark Mode";
         font-family: "Antonio";
         margin-top: 3px;
         padding: 2px;
         text-align: center;
+    }
+
+    .heroImage span {
+        top: 50px;
+        left: 30px;
+        width: 30%;
+        padding: 60px;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 40px;
+        color: var(--background_color5);
+        font-family: "Antonio";
+        font-style: italic;
+        border: none;
+        font-weight: normal;
+        box-shadow: 1px 1px 10px #53311D;
+
+    }
+
+
+    .googleMap h3 {
+        font-size: 25px;
+    }
+
+    .googleMap iframe {
+        height: 450px;
     }
 }

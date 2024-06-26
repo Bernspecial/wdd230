@@ -20,32 +20,6 @@ menu.addEventListener("click", () => {
     menu.classList.toggle("open");
 });
 
-// This code is to create a dark Mode with if statement
-
-// const modeButton = document.querySelector("#darkMode");
-// const header = document.querySelector("header");
-// const classHeader = document.querySelector(".header")
-// const span = document.querySelector("span")
-
-// modeButton.addEventListener("click", () => {
-//     if (modeButton.textContent.toggle("🕶")) {
-//         header.style.background = "black";
-//         classHeader.style.background = "black";
-//         span.style.color = "white";
-//         modeButton.textContent = "☀";
-//     }
-
-//     else {
-//         header.style.background = "#53311D";
-//         classHeader.style.background = "#53311D";
-//         span.style.color = "#CCD5AE";
-//         modeButton.textContent = "🕶";
-//     }
-// });
-
-
-
-
 // Another way to write dark mode code using toggle
 const darkMode = document.querySelector("#darkMode");
 const header = document.querySelector("header");
@@ -58,3 +32,27 @@ darkMode.addEventListener("click", () => {
     span.classList.toggle("darkMode");
     darkMode.classList.toggle("darkMode");
 });
+
+// This code is to create how many times a user visits the webpage
+
+
+// Initialize display element variable
+const visit = document.querySelector(".visits");
+
+// Get the stored VALUE for the numberOfVisit KEY in localStorage if it exists. If the numVisits KEY is missing, then assign 0 to the 
+// numVisits variable.
+let numbVisit = Number(window.localStorage.getItem("numberOfVisit")) || 0;
+
+//  Determine if this is the first visit or display the number of visits. 
+if (numbVisit !== 0){
+    visit.textContent = numbVisit;
+}
+else{
+    visit.textContent = `🎉Welcome! It's your first time here.`;
+}
+
+// increment the number of visits by one.
+numbVisit++;
+
+//  store the new visit total into localStorage, numberOfVisit
+localStorage.setItem("numberOfVisit", numbVisit);

@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    /* make the main section a flex container */
+    flex-direction: column;
+    /* stack the images in a column */
+    align-items: center;
+    /* center the images horizontally */
+}
+
+.p {
+    width: 300px;
+    height: 600px;
+}
+.img{
+    margin-top: 70rem;
+}
+img {
+    width: 400px;
+    height: 600px;
+    background: black;
+    /* initial opacity is 0, making the images invisible */
+    animation: fade 15s;
+    /* animation name, duration, and fill-mode */
+    /* animation-delay: 0.5s; */
+    /* delay the animation by 0.5 seconds */
+    /* object-fit: cover; */
+    /* scale the image to cover the entire container */
+    /* object-position: center; */
+    /* center the image horizontally and vertically */
+    display: block;
+    /* make the image a block element */
+    margin-bottom: 20px;
+    /* add some space between images */
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        /* final opacity is 1, making the images fully visible */
+    }
+
+    100%{
+        opacity: 1;
+    }
+}

@@ -14,6 +14,7 @@
 body {
     background-color: var(--background_color2);
     margin: 1px 0;
+    padding: 0%;
 }
 
 header {
@@ -146,6 +147,10 @@ main h1 {
     margin-bottom: 40px;
 }
 
+.hrhero {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
 
 #card-section {
     margin: 1rem 2vw;
@@ -199,9 +204,55 @@ main h1 {
     text-align: center;
     font-family: "Lato";
     color: var(--background_color4);
+    margin-top: 40px;
 }
 
 .flag {
     width: 50px;
     height: 50px;
+}
+
+.heroImage {
+    position: relative;
+}
+
+.heroImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.heroImage span {
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    width: 30%;
+    background-color: rgba(172, 145, 145, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: var(--background_color5);
+    font-family: "Antonio";
+    font-style: normal;
+    border: 1px dashed var(--background_color1);
+    font-weight: 700;
+    box-shadow: 1px 1px 5px #53311D;
+}
+
+/* .googleMap {
+    text-align: center;
+    padding: 10px;
+} */
+
+.googleMap h3{
+    font-size: 15px;
+    color: var(--background_color4);
+    font-family: "Lato";
+}
+
+.googleMap iframe{
+    width: 100%;
+    height: 100%;
 }
