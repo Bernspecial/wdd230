@@ -13,7 +13,7 @@
 
 body {
     background-color: var(--background_color2);
-    margin: 1px 0;
+    margin: 1px 0px;
     padding: 0%;
 }
 
@@ -199,8 +199,8 @@ main h1 {
 
 .footer {
     background-color: var(--background_color1);
-    padding: 50px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 10px;
     text-align: center;
     font-family: "Lato";
     color: var(--background_color4);
@@ -208,8 +208,8 @@ main h1 {
 }
 
 .flag {
-    width: 185px;
-    height: 127px;
+    width: 10%;
+    height: 10%;
 }
 
 .heroImage {
@@ -246,13 +246,13 @@ main h1 {
     padding: 10px;
 } */
 
-.googleMap h3{
+.googleMap h3 {
     font-size: 15px;
     color: var(--background_color4);
     font-family: "Lato";
 }
 
-.googleMap iframe{
+.googleMap iframe {
     width: 100%;
     height: 100%;
 }

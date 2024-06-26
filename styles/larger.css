@@ -91,4 +91,9 @@
     .googleMap iframe {
         height: 450px;
     }
+
+    .footer {
+        font-size: 25px;
+    }
+
 }
