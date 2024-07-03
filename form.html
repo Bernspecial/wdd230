@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Bernard Olayemi - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="WDD 230 Web Frontend Development michael Bernard Olayemi course assignment portal">
+    <meta name="author" content="Michael Bernard Olayemi">
+    <meta property="og:title" content="Michael Bernard Olayemi - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="WDD 230 Web Frontend Development">
+    <meta property="og:image"
+        content="https://www.nairaland.com/attachments/3692383_img20160506082301_jpeg45b3c882fe3bfa8e7b154b0ffcff4459">
+    <meta property="og:image:secure_url"
+        content="https://www.nairaland.com/attachments/3692383_img20160506082301_jpeg45b3c882fe3bfa8e7b154b0ffcff4459">
+    <meta property="og:url" content="https://bernspecial.github.io/wdd230/">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+    <div id="darkMode"><img src="images/darkmode.webp" alt="darkmode-logo" width="25" height="25"></div>
+    <header>
+        <div class="header">
+            <img src="images/berns.webp" alt="Michael Bernard Olayemi image">
+            <span class="mbo">Michael Bernard Olayemi</span>
+        </div>
+    </header>
+    <button id="menu"></button>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Chamber</a>
+        <a href="">Site Plan</a>
+        <a class="link1" href="form.html">Form</a>
+    </nav>
+    <main>
+        <form method="get" action="record.html" class="form">
+            <fieldset>
+                <label for="username">Username* <input id="username" type="text" name="username" required></label>
+                <label for="password">Password* <input id="password" type="password" name="password"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Password must be at least 8 characters long and can only be alpha-numeric"
+                        required></label>
+                <label for="password2">Password Confirmation* <input id="password2" type="password" name="password"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Password must be at least 8 characters long and can only be alpha-numeric" required>
+                    <div id="feedback"></div>
+                </label>
+                <label for="email">Email* <input id="email" type="email" name="email"
+                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"
+                        required></label>
+                <label for="range">Page Rating
+                    <div id="rangeRating">0</div>
+                    <input id="range" type="range" name="range" min="0" max="10" value="0" step="1" list="rangevalues">
+                </label>
+
+            </fieldset>
+            <input type="submit" value="Happy To Join">
+        </form>
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; <span id="year"></span> | Michael Bernard Olayemi | Ibadan Oyo State, Nigeria </p>
+            <img class="flag" src="images/rsz_oip.png" alt="Nigeria Flag" width="185" height="127">
+            <p id="lastModified">Site was last modified: </p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>
