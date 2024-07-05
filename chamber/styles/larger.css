@@ -21,11 +21,13 @@
     }
 
     #form {
+        width: 100%;
         display: block;
         position: absolute;
         top: 0;
-        right: 1rem;
-        margin-top: -12px;
+        right: 0;
+        margin-right: -75rem;
+        margin-top: -10px;
     }
 
     #form input[type="search"] {
