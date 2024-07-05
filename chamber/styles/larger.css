@@ -1,3 +1,16 @@
+:root {
+    /* Color scheme for this project */
+    --bodybackgroundcolor: #D5BDAF;
+    --primarybackgroundcolor: #D6CCC2;
+    --primarycolor1: #0E1208;
+    --secondarycolor: #312416;
+
+    /* Google font for this project */
+    --Text-Heading1: "Oswald";
+    --SubText-Heading: "Montserrat";
+    --Paragraph-Text: "Exo 2";
+}
+
 @media screen and (min-width: 32rem) {
     header {
         position: fixed;
@@ -7,12 +20,29 @@
         text-align: left;
     }
 
-    form {
+    #form {
         display: block;
         position: absolute;
         top: 0;
         right: 1rem;
         margin-top: -12px;
+    }
+
+    #form input[type="search"] {
+        border-radius: 6px;
+        padding: 5px;
+        background-color: whitesmoke;
+        color: #0E1208;
+        font-family: "Exo 2";
+        font-size: 15px;
+    }
+
+    #form button {
+        color: #0E1208;
+        border: none;
+        background-color: whitesmoke;
+        padding: 5px;
+        font-family: "Exo 2";
     }
 
     #menu {
@@ -107,8 +137,13 @@
         margin-top: 32px;
     }
 
+    ul p {
+        padding: 20px;
+        margin-left: -20px;
+    }
 
-    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Discover Styling>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
     .mainContainer {
@@ -241,4 +276,61 @@
     .hover10:hover {
         mix-blend-mode: hard-light;
     }
+
+
+    /* -------------------------------------------------------------Thank you page styling----------------------------------------------------------------------- */
+    .p {
+        padding: 100px;
+        font-size: 30px;
+
+    }
+    .p::before {
+        content: "🎉🥂";
+    }
+    .p::after {
+        content: "🎉🥂";
+    }
+
+    /* --------------------------------------------------------------------------------------Form Styling-------------------------------------------------------- */
+    #main-form {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 30px;
+    }
+
+
+    .form legend {
+        font-size: 30px;
+    }
+
+
+    .form input:required {
+        border-bottom: solid 3px var(--primarycolor1);
+    }
+
+    .form input:required:valid {
+        border-left: solid 5px rgba(91, 192, 114, 0.725);
+    }
+
+
+    /* ----------------------------------------------The Table Styling--------------------------------------------------- */
+
+    #formtablediv {
+        padding: initial;
+    }
+
+    #formtablediv h1 {
+        font-size: 30px;
+    }
+
+    #formtablediv table {
+        margin-top: initial;
+    }
+
+    caption {
+        padding: 10px;
+        font-size: .85rem;
+    }
+
+
 }

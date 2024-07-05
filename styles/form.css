@@ -37,7 +37,7 @@ main {
     padding-top: 1.5rem;
     color: var(--color3);
     font-size: 1rem;
-    font: var(--fontfamily);
+    font-family: var(--fontfamily);
 }
 
 .form div {

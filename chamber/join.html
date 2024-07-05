@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibadan chamber of commerce homepage</title>
+    <meta name="description" content="The Ibadan Chamber of Commerce Website">
+    <meta name="author" content="Michael Bernard Olayemi">
+    <meta property="og:title" content="The Ibadan Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ibadan chamber of commerce homepage">
+    <meta property="og:image"
+        content="https://www.nairaland.com/attachments/3692383_img20160506082301_jpeg45b3c882fe3bfa8e7b154b0ffcff4459">
+    <meta property="og:image:secure_url"
+        content="https://www.nairaland.com/attachments/3692383_img20160506082301_jpeg45b3c882fe3bfa8e7b154b0ffcff4459">
+    <meta property="og:url" content="https://bernspecial.github.io/wdd230/chamber/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html">
+                <h1>The Ibadan Chamber of Commerce</h1>
+            </a>
+        </div>
+        <form id="form">
+            <input type="search" id="search-input" placeholder="Search...">
+            <button id="search-button">Search</button>
+        </form>
+    </header>
+    <button id="menu"></button>
+    <div id="navigation">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="">Page1</a>
+            <a href="">Page2</a>
+            <a class="active" href="join.html">Membership Form</a>
+        </nav>
+    </div>
+    <main id="main-form">
+        <form action="thankyou.html" method="get" class="form">
+            <legend>Membership Form</legend>
+            <b>The fields with <i>*</i> sign are required</b>
+            <label for="fname">First Name:<i>*</i> <input id="fname" type="text" name="fname" placeholder="firstname"
+                    required></label>
+            <label for="lname">Last Name:<i>*</i> <input id="lname" type="text" name="fname" placeholder="lastname"
+                    required></label>
+            <label for="title">Title/Position: <input id="title" type="text" name="title"
+                    pattern="^[A-Za-z\- ]{7,}$"></label>
+            <label for="email">Email:<i>*</i> <input id="email" type="email" name="email"
+                    placeholder="example@example.com" required></label>
+            <label for="tel">Phone Number:<i>*</i> <input id="tel" type="tel" name="telephone" placeholder="1234555123"
+                    required></label>
+            <label for="org">Organization Name:<i>*</i> <input id="org" type="text" name="organization"
+                    required></label>
+            <label for="level">Membership Level:
+                <select name="level" id="level">
+                    <option value="">please select &#9662;</option>
+                    <option value="Non-Profit">Non-Profit Membership</option>
+                    <option value="Bronze">Bronze Membership </option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+            </label>
+            <label for="org-description">Organization Description:
+                <textarea name="org-description" id="org-description" rows="5" cols="50"></textarea>
+            </label>
+            <input type="hidden" id="timestamp" name="timestamp" value="<?php echo date('Y-m-d H:i:s');?>">
+            <input type="submit" value="Happy To Be A Member">
+        </form>
+        <div id="formtablediv">
+            <h1 class="h1">Membership Level Benefits</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Benefits</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Non-Profit Membership <br>(No Fee)</td>
+                        <td>
+                            <ul>
+                                <li>Discounts on event sponsorships and advertising.</li>
+                                <li>Access to exclusive non-profit networking events</li>
+                                <li>One free spotlight position on the chamber's home page per year</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bronze Membership <br> ($200/year)</td>
+                        <td>
+                            <ul>
+                                <li>All Level 1 benefits</li>
+                                <li>Priority access to chamber events and training sessions</li>
+                                <li>Opportunities to participate in chamber committees and task forces</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Silver Membership <br>($350/year)</td>
+                        <td>
+                            <ul>
+                                <li>All Level 2 benefits</li>
+                                <li>Three free spotlight positions on the chamber's home page per year</li>
+                                <li>VIP access to chamber events, including exclusive receptions and meetings with
+                                    elected officials</li>
+                                <li>Opportunities to host a chamber event or training session at your non-profit's
+                                    location</li>
+                                <li>Recognition as a Leadership Circle member on the chamber's website and social media
+                                    channels</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gold Membership <br>($600/year)</td>
+                        <td>
+                            <ul>
+                                <li>All Level 3 benefits</li>
+                                <li>Opportunities to co-host a chamber event or training session with the chamber's CEO
+                                    or Board Chair</li>
+                                <li>Recognition as a Visionary member on the chamber's website, social media channels,
+                                    and print materials</li>
+                                <li>Opportunities to co-host a chamber event or training session with the chamber's CEO
+                                    or Board Chair</li>
+                                <li>Access to a dedicated chamber staff liaison for customized support and resources
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+                <caption><i>How the membership benefits are being shared</i></caption>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="footerDiv">
+            <div class="div1">
+                <p>&copy; <span id="year"></span> | Michael Bernard Olayemi | WDD 230 Project</p>
+            </div>
+            <div class="div2">
+                <a href="mailto:michaelbernardolayemi@gmail.com">michaelbernardolayemi@gmail.com</a>
+                | <a href="tel:+2348108199412">+2348108199412</a>
+            </div>
+            <div class="div3">
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="scripts/chamber.js"></script>
+</body>
+
+</html>
