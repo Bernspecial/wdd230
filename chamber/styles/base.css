@@ -264,8 +264,14 @@ button {
 }
 
 /* ---------------------------------------------------------Thank you page styling------------------------------------------------------------------------------- */
+.thankyou{
+    padding: 10px;
+    text-align: center;
+}
+
 .p {
-    padding: 50px;
+    margin-top: -30px;
+    padding: 0%;
     font-size: 15px;
 }
 
@@ -448,11 +454,11 @@ a {
     padding: 0% 2px;
 }
 
-#formtablediv h1::before {
+#formtablediv h1, .h1::before {
     content: none;
 }
 
-#formtablediv h1 {
+#formtablediv h1, .h1 {
     margin: 3rem 5px;
     font-size: 20px;
     font-family: var(--SubText-Heading);
