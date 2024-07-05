@@ -49,36 +49,7 @@
     </div>
 
     <main id="main-form">
-        <form action="thankyou.html" method="get" class="form">
-            <fieldset>
-                <legend>Membership Form</legend>
-                <b>The fields with <i>*</i> sign are required</b>
-                <label for="fname">First Name:<i>*</i> <input id="fname" type="text" name="fname" required></label>
-                <label for="lname">Last Name:<i>*</i> <input id="lname" type="text" name="lname" required></label>
-                <label for="title">Title/Position: <input id="title" type="text" name="title"
-                        pattern="^[A-Za-z\- ]{7,}$"></label>
-                <label for="email">Email:<i>*</i> <input id="email" type="email" name="email"
-                        placeholder="example@example.com" required></label>
-                <label for="tel">Phone Number:<i>*</i> <input id="tel" type="tel" name="telephone" required></label>
-                <label for="org">Organization Name:<i>*</i> <input id="org" type="text" name="organization"
-                        required></label>
-                <label for="level">Membership Level:
-                    <select name="level" id="level">
-                        <option value="">please select &#9662;</option>
-                        <option value="Non-Profit">Non-Profit Membership</option>
-                        <option value="Bronze">Bronze Membership </option>
-                        <option value="Silver">Silver Membership</option>
-                        <option value="Gold">Gold Membership</option>
-                    </select>
-                </label>
-                <label for="org-description">Organization Description:
-                    <textarea name="org-description" id="org-description" rows="5" cols="50"></textarea>
-                </label>
-                <!-- <input type="hidden" id="timestamp" name="timestamp" value="<?php echo date('Y-m-d H:i:s');?>"> -->
-                <input type="hidden" id="timestamp" name="timestamp" value="2024-07-04 21:54:29">
-                <input type="submit" value="Happy To Be A Member">
-            </fieldset>
-        </form>
+        
 
 
         <div id="formtablediv">
