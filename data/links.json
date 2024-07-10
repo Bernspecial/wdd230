@@ -1,0 +1,105 @@
+{
+    "weeks": [
+        {
+            "week": "Week 01",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week01/prepare-naming-conventions.html",
+                    "title": "File and Folder Name Convention"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week01/prepare-web-dev-standards.html",
+                    "title": "Web Development standards"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week01/prepare-holygrail-layout.html",
+                    "title": "Page Layout Review"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week01/prepare-applied-javascript.html",
+                    "title": "Applied JavaScript"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week01/prepare-media-queries.html",
+                    "title": "Responsive Design"
+                }
+            ]
+        },
+        {
+            "week": "Week 02",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week02/prepare-design-principles.html",
+                    "title": "Web Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/blazzard-jason/pen/BaOwMvg",
+                    "title": "Responsive 'Hamburger' Menu"
+                },
+                {
+                    "url": "https://bernspecial.github.io/wdd230/week02/bom.html",
+                    "title": "JavaScript: DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "week": "Week 03",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "Webp"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week03/prepare-lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week03/prepare-responsive-images.html",
+                    "title": "Responsive Images: srcset"
+                },
+                {
+                    "url": "https://bernspecial.github.io/wdd230/week03/bom.html",
+                    "title": "Web Storage API - localStorage"
+                }
+            ]
+        },
+        {
+            "week": "Week 04",
+            "links":[
+                {
+                    "url": "https://codepen.io/Michael-Bernard/pen/RwmXKaB",
+                    "title": "CSS Pseudo-Classes"
+                },
+                {
+                    "url": "week04/images/Screenshot 2024-07-02 100331.png",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week04/prepare-tables.html",
+                    "title": "HTML Tables for Data Presentation"
+                }
+            ]
+        },
+        {
+            "week": "Week 05",
+            "links":[
+                {
+                    "url": "https://codepen.io/Michael-Bernard/pen/zYVYPzv",
+                    "title": "CSS Pseudo-elements"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-ww-course/week05/prepare-fetch.html",
+                    "title": "The Fetch API"
+                },
+                {
+                    "URL": "https://byui-cse.github.io/wdd230-ww-course/week05/prepare-api-weather.html",
+                    "title": "Consuming a Weather API"
+                }
+            ]
+        }
+    ]
+}
