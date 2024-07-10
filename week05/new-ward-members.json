@@ -1,0 +1,25 @@
+{
+    "familyName": "Michael",
+    "DateMovedToTheWard": "7/6/2023",
+    "NumberOfPeopleInTheFamily": "10",
+    "VisitedByBishopric": "true",
+    "FamilyMembers": [
+        {
+            "Name": "Michael Bernard Olayemi",
+            "Gender": "Male",
+            "Birthdate": "06/09/1993"
+        },
+        {
+            
+            "Name": "Michael Lovelyn Adaeze",
+            "Gender": "female",
+            "Birthdate": "11/01/1996"
+        },
+        {
+            
+            "Name": "Michael Nicolas",
+            "Gender": "Male",
+            "Birthdate": "06/09/2020"
+        }
+    ]
+}
