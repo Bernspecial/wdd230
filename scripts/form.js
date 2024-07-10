@@ -1,4 +1,4 @@
-// This code is to validate the passwood, to check if they really match
+// This code is to validate the password, to check if they really match
 const pwd1 = document.querySelector("#password");
 const pwd2 = document.querySelector("#password2");
 const feedback = document.querySelector("#feedback");
@@ -27,6 +27,6 @@ range.addEventListener('input', displayRatingValue);
 
 function displayRatingValue() {
     rangeRating.innerHTML = range.value;
-}
+};
 
 

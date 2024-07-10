@@ -47,26 +47,23 @@
     </nav>
     <main>
         <form method="get" action="record.html" class="form">
-            <!-- <fieldset> -->
-                <label for="username">Username* <input id="username" type="text" name="username" required></label>
-                <label for="password">Password* <input id="password" type="password" name="password"
-                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                        title="Password must be at least 8 characters long and can only be alpha-numeric"
-                        required></label>
-                <label for="password2">Password Confirmation* <input id="password2" type="password" name="password"
-                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                        title="Password must be at least 8 characters long and can only be alpha-numeric" required>
-                    <div id="feedback"></div>
-                </label>
-                <label for="email">Email* <input id="email" type="email" name="email"
-                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"
-                        required></label>
-                <label for="range">Page Rating
-                    <div id="rangeRating">0</div>
-                    <input id="range" type="range" name="range" min="0" max="10" value="0" step="1" list="rangevalues">
-                </label>
+            <label for="username">Username* <input id="username" type="text" name="username" required></label>
+            <label for="password">Password* <input id="password" type="password" name="password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Password must be at least 8 characters long and can only be alpha-numeric" required></label>
+            <label for="password2">Password Confirmation* <input id="password2" type="password" name="password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Password must be at least 8 characters long and can only be alpha-numeric" required>
+            </label>
+            <div id="feedback"></div>
+            <label for="email">Email* <input id="email" type="email" name="email" placeholder="example@byui.edu"
+                    pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Please enter a valid email address" required></label>
+            <label for="range">Page Rating</label>
+            <div id="rangeRating">0</div>
+            <input id="range" type="range" name="range" min="0" max="10" value="0" step="1">
 
-            <!-- </fieldset> -->
+
+
             <input type="submit" value="Happy To Join">
         </form>
 
