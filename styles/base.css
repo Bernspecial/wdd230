@@ -177,22 +177,27 @@ main h1 {
     font-weight: lighter;
 }
 
-.card ul {
+.card ul, a {
     color: var(--background_color4);
 }
 
-.listhome {
+ul a {
     color: var(--background_color4);
     text-decoration: none;
     font-family: "Lato";
 }
 
-.listhome:hover {
+ul a:hover {
     color: var(--background_color3);
 }
 
+ul span{
+    font-weight: bolder;
+    font-family: var("Lato");
+}
+
 .card p, 
-.p {
+.p, figcaption {
     padding: 5px;
     color: var(--background_color4);
 }
@@ -261,5 +266,8 @@ main h1 {
     text-align: center;
 }
 
+figure{
+    margin-left: 1px;
+}
 
 

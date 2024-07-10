@@ -63,7 +63,8 @@
 
             <section class="card">
                 <h2>Learning Activities</h2>
-                <ul>
+                <div id="weeks"></div>
+                <!-- <ul>
                     <li>Week 01: <a class="listhome"
                             href="https://byui-cse.github.io/wdd230-ww-course/week01/prepare-naming-conventions.html">File
                             And Folder Name Convention</a> | <a class="listhome"
@@ -99,15 +100,21 @@
                             Pseudo-elements</a> | <a class="listhome" href="week05/new-ward-members.json">JSON</a> | <a
                             class="listhome"
                             href="https://byui-cse.github.io/wdd230-ww-course/week05/prepare-fetch.html">The Fetch
-                            API</a> | <a class="listhome" href="https://byui-cse.github.io/wdd230-ww-course/week05/prepare-api-weather.html">Consuming a Weather API</a></li>
+                            API</a> | <a class="listhome"
+                            href="https://byui-cse.github.io/wdd230-ww-course/week05/prepare-api-weather.html">Consuming
+                            a Weather API</a></li>
                     <li>Week 06</li>
                     <li>Week 07</li>
 
-                </ul>
+                </ul> -->
             </section>
             <section class="card">
                 <h2>Information</h2>
-                <p>Ibadan, Nigeria Weather Forecast, 30°C Mostly Cloudy.</p>
+                <p>Ibadan, Nigeria Weather Forecast: <span id="weatherTemperature"></span></p>
+                <figure>
+                    <div id="weather-icon"></div>
+                    <figcaption></figcaption>
+                </figure>
                 <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
             </section>
         </div>
@@ -128,7 +135,7 @@
             <p id="lastModified">Site was last modified: </p>
         </div>
     </footer>
-
+    <script src="scripts/links.js"></script>
     <script src="scripts/getDates.js"></script>
 </body>
 

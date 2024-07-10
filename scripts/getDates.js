@@ -56,3 +56,46 @@ numbVisit++;
 
 //  store the new visit total into localStorage, numberOfVisit
 localStorage.setItem("numberOfVisit", numbVisit);
+
+
+// This code is used for current weather forecast
+
+const weatherTem = document.querySelector("#weatherTemperature");
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
+
+
+const url = "https://api.openweathermap.org/data/2.5/weather?lat=7.38&lon=3.94&units=imperial&appid=94f353dd107e08ba472857158ebbaf93";
+
+
+async function ibadanweather(){
+    try{
+        const response = await fetch(url);
+        if (response.ok){
+            const data = await response.json();
+            // console.log(data);
+            displayWeather(data);
+        }else{
+            throw new Error (`HTTP error! status: ${response.status}`)
+        }
+
+    }
+    catch (error){
+        console.log(error)
+    }
+}
+
+function displayWeather(weather){
+    let img = document.createElement("img");
+
+    weatherTem.innerHTML= `${weather.main.temp}&deg;F`;
+    const theIcon = `https://openweathermap.org/img/w/${weather.weather[0].icon}.png`;
+    let description = weather.weather[0].description;
+    img.setAttribute("src", theIcon);
+    img.setAttribute("alt", description);
+    captionDesc.textContent = `${description}`;
+
+    weatherIcon.appendChild(img)
+}
+
+ibadanweather();
