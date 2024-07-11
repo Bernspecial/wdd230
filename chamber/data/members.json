@@ -1,0 +1,81 @@
+{
+    "members": [
+        {
+            "id": 1,
+            "name": "Oluyole Investments",
+            "address": "1, Oluyole Way, Ibadan, Nigeria",
+            "phone": "+234 803 456 7890",
+            "website": "https://www.oluyoleinvestments.com",
+            "image": "oluyole-investments-logo.png",
+            "membershipLevel": "Platinum",
+            "industry": "Real Estate",
+            "description": "Leading real estate developers in Ibadan"
+        },
+        {
+            "id": 2,
+            "name": "Ibadan Business School",
+            "address": "Plot 123, Liberty Road, Ibadan, Nigeria",
+            "phone": "+234 802 345 6789",
+            "website": "https://www.ibadanbusinessschool.com",
+            "image": "ibadan-business-school-logo.jpg",
+            "membershipLevel": "Gold",
+            "industry": "Education",
+            "description": "Empowering entrepreneurs in Ibadan"
+        },
+        {
+            "id": 3,
+            "name": "First Bank Ibadan",
+            "address": "Dugbe, Ibadan, Nigeria",
+            "phone": "+234 803 111 2222",
+            "website": "https://www.firstbanknigeria.com",
+            "image": "first-bank-ibadan-logo.svg",
+            "membershipLevel": "Silver",
+            "industry": "Financial Services",
+            "description": "Your trusted banking partner in Ibadan"
+        },
+        {
+            "id": 4,
+            "name": "Tantalizers Ibadan",
+            "address": "Ring Road, Ibadan, Nigeria",
+            "phone": "+234 802 222 3333",
+            "website": "https://www.tantalizers.com",
+            "image": "tantalizers-ibadan-logo.png",
+            "membershipLevel": "Bronze",
+            "industry": "Food Service",
+            "description": "Serving up delicious meals in Ibadan"
+        },
+        {
+            "id": 5,
+            "name": "University of Ibadan",
+            "address": "University of Ibadan, Ibadan, Nigeria",
+            "phone": "+234 803 456 7890",
+            "website": "https://www.ui.edu.ng",
+            "image": "university-of-ibadan-logo.jpg",
+            "membershipLevel": "Platinum",
+            "industry": "Education",
+            "description": "Premier university in Ibadan"
+        },
+        {
+            "id": 6,
+            "name": "Ibadan Electricity Distribution Company",
+            "address": "Ibadan, Nigeria",
+            "phone": "+234 802 345 6789",
+            "website": "https://www.ibedc.com",
+            "image": "ibedc-logo.svg",
+            "membershipLevel": "Gold",
+            "industry": "Energy",
+            "description": "Powering homes and businesses in Ibadan"
+        },
+        {
+            "id": 7,
+            "name": "Ladipo Industries",
+            "address": "Ladipo, Ibadan, Nigeria",
+            "phone": "+234 803 111 2222",
+            "website": "https://www.ladipoindustries.com",
+            "image": "ladipo-industries-logo.png",
+            "membershipLevel": "Silver",
+            "industry": "Manufacturing",
+            "description": "Leading manufacturers in Ibadan"
+        }
+    ]
+}
