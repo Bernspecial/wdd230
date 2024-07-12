@@ -1,5 +1,5 @@
 const dateOption = {
-    year: "numeric"
+  year: "numeric"
 };
 
 document.querySelector("#year").textContent = new Date().toLocaleDateString("en-Us", dateOption);
@@ -15,8 +15,8 @@ const menu = document.querySelector("#menu");
 const links = document.querySelector("nav");
 
 menu.addEventListener("click", () => {
-    links.classList.toggle("open");
-    menu.classList.toggle("open");
+  links.classList.toggle("open");
+  menu.classList.toggle("open");
 });
 
 
@@ -100,7 +100,7 @@ if (!localStorage.getItem('lastVisit')) {
     visit.style.fontWeight = "bold";
   }
 
-//   lastVisit++;
+  //   lastVisit++;
   // Update the last visit date to now
   localStorage.setItem('lastVisit', now.getTime());
 }

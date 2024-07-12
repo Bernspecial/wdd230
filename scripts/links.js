@@ -1,4 +1,4 @@
-const baseUrl = "https://bernspecial.github.io/wdd230/";
+// const baseUrl = "https://bernspecial.github.io/wdd230/";
 
 const linkUrl = "https://bernspecial.github.io/wdd230/data/links.json";
 

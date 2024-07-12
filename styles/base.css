@@ -193,7 +193,7 @@ ul a:hover {
 
 ul span{
     font-weight: bolder;
-    font-family: var("Lato");
+    font-family: "Lato";
 }
 
 .card p, 

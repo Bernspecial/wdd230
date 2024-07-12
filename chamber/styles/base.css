@@ -264,7 +264,7 @@ button {
 }
 
 /* ---------------------------------------------------------Thank you page styling------------------------------------------------------------------------------- */
-.thankyou{
+.thankyou {
     padding: 10px;
     text-align: center;
 }
@@ -276,8 +276,9 @@ button {
 }
 
 .p::before {
-    content:none;
+    content: none;
 }
+
 .p::after {
     content: none;
 }
@@ -454,11 +455,13 @@ a {
     padding: 0% 2px;
 }
 
-#formtablediv h1, .h1::before {
+#formtablediv h1,
+.h1::before {
     content: none;
 }
 
-#formtablediv h1, .h1 {
+#formtablediv h1,
+.h1 {
     margin: 3rem 5px;
     font-size: 20px;
     font-family: var(--SubText-Heading);
@@ -512,4 +515,134 @@ td {
 
 tbody tr:nth-child(odd) {
     background-color: var(--primarybackgroundcolor);
+}
+
+/* ------------------------------------------------------------Directory Styling--------------------------------------------------------------------------------------- */
+
+#directoryMain {
+    margin: 10px 1px 50px;
+}
+
+.displayMenu {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    text-align: center;
+    width: 100%;
+}
+
+
+.grid img {
+    width: auto;
+    max-width: 300px;
+    box-shadow: 0 0 30px var(--secondarycolor);
+    height: 200px;
+
+}
+
+.grid section {
+    margin-top: 20px;
+    border-bottom: 2px solid var(--primarycolor1);
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.grid i {
+    margin-top: -20px;
+    display: block;
+    font-size: 15px;
+}
+
+
+#memberCards i::before {
+    content: "📞";
+}
+
+.grid h5 {
+    font-size: 20px;
+}
+
+.grid h6 {
+    margin-top: -25px;
+}
+
+#memberCards h6::before {
+    content: "🏚️";
+}
+
+.grid a {
+    margin-top: -35px;
+}
+
+#memberCards a {
+    text-decoration: none;
+    color: var(--secondarycolor);
+}
+
+#memberCards a:hover {
+    background-color: var(--secondarycolor);
+    color: var(--primarybackgroundcolor);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: block;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* margin: 0; */
+    /* padding: 1rem; */
+    text-align: center;
+    border-bottom: 3px solid black;
+    box-shadow: 1px 1px 10px var(--primarycolor1);
+    margin: 5px 1px;
+    /* width: 100%; */
+    font-family: var(--Paragraph-Text);
+
+}
+
+.list section>* {
+    margin: 0 3rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section:nth-child(even) {
+    background-color: var(--bodybackgroundcolor);
+}
+
+.list h5 {
+    font-size: 15px;
+    font-family: var(--Text-Heading1);
+}
+
+.list h6 {
+    margin-top: 5px;
+    font-family: var(--SubText-Heading);
+}
+
+.list i {
+    margin-top: 5px;
+    display: block;
+    font-family: var(--Paragraph-Text);
+    font-size: 12px;
+
+}
+
+.list a {
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: var(--Paragraph-Text);
+
 }

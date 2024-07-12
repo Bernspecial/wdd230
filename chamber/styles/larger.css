@@ -281,17 +281,20 @@
 
 
     /* -------------------------------------------------------------Thank you page styling----------------------------------------------------------------------- */
-    
-    .thankyou{
+
+    .thankyou {
         padding: 50px;
     }
+
     .p {
         padding: 0%;
         font-size: 30px;
     }
+
     .p::before {
         content: "🎉🥂";
     }
+
     .p::after {
         content: "🎉🥂";
     }
@@ -335,6 +338,49 @@
     caption {
         padding: 10px;
         font-size: .85rem;
+    }
+
+    /* -----------------------------------------------------Directory Styling------------------------------------------------------------------ */
+    .displayMenu {
+        margin: 1rem auto;
+
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* margin: 0; */
+        padding: 0.25rem;
+        text-align: left;
+        border-bottom: 2px solid var(--secondarycolor);
+        box-shadow: 1px 1px 5px var(--primarycolor1);
+        width: 100%;
+
+    }
+
+    .list section>* {
+        margin: 1rem 1rem;
+    }
+
+    .list h5 {
+        font-size: 15px;
+    }
+
+    .list h6,
+    a,
+    i {
+        font-size: 15px;
+    }
+
+    .list h5::after{
+        content: ":";
     }
 
 

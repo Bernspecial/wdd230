@@ -75,6 +75,7 @@ async function ibadanweather(){
             const data = await response.json();
             // console.log(data);
             displayWeather(data);
+            console.log(data)
         }else{
             throw new Error (`HTTP error! status: ${response.status}`)
         }
