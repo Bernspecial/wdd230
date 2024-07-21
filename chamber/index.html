@@ -41,17 +41,17 @@
     <button id="menu"></button>
     <div id="navigation">
         <nav>
-            <a lass="active" href="index.html">Home</a>
-            <a href="">Page1</a>
+            <a class="active" href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
             <a href="directory.html">Directory</a>
             <a href="join.html">Membership Form</a>
         </nav>
     </div>
     <main>
         <div class="heroImage">
-            <div class="heroAnimation1"><img src="images/rsz_secondimage.jpg" alt="a place in ibadan"></div>
-            <div class="heroAnimation2"><img src="images/rsz_thirdimage.jpg" alt="a place in ibadan"></div>
-            <div class="heroAnimation3"><img src="images/rsz_fouthimage.jpg" alt="a place in ibadan"></div>
+            <div class="heroAnimation1"><img src="images/ib2medium.webp" alt="a place in ibadan" width="400" height="250"></div>
+            <div class="heroAnimation2"><img src="images/ib5medium.webp" alt="a place in ibadan"></div>
+            <div class="heroAnimation3"><img src="images/ib8medium.webp" alt="a place in ibadan"></div>
             <div class="heroAnimation4"><img src="images/image1.jpg" alt="a place in ibadan"></div>
             <div class="heroAnimation5"><img src="images/image3.jpg" alt="a place in ibadan"></div>
             <h3 class="heroWelcome">"Welcome to Ibadan Chamber of Commerce, where entrepreneurs thrive and connections
@@ -65,18 +65,12 @@
             <h2>Weather Card Section</h2>
             <h3>Current Weather in Ibadan</h3>
             <ul>
-                <li>
-                    <p>Temperature:</p>28°C (82°F)
-                </li>
-                <li>
-                    <p>Conditions:</p> Partly Cloudy
-                </li>
-                <li>
-                    <p>Humidity:</p> 60%
-                </li>
-                <li>
+                <li id="threeDaysForecast">Three days weather forecast</li>
+                <li id="temperature"></li>
+                <li id="description"></li>
+                <!-- <li>
                     <p>Wind:</p> 15 km/h (9 mph)
-                </li>
+                </li> -->
             </ul>
         </section>
         <section>
@@ -102,32 +96,14 @@
                     your spot today!</p>
             </div>
         </section>
-        <section>
+        <section id="spotlight">
             <h2>Spotlights Section</h2>
-            <div>
-                <h3>Spotlight 1:</h3>
-                <p>Company: Oluyole Investments Limited Industry: Real Estate Description: "Transforming Ibadan's
-                    landscape, one property at a time. Oluyole Investments Limited is a leading real estate developer in
-                    Ibadan, committed to providing affordable and luxurious housing solutions. Join us in shaping the
-                    future of Ibadan's real estate market." Call-to-Action (CTA): Learn More about Oluyole Investments
-                    Limited</p>
-            </div>
-            <div>
-                <h3>Spotlight 2:</h3>
-                <p>Company: Ibadan Agro-Allied Industries Industry: Agriculture Description: "Cultivating growth,
-                    empowering communities. Ibadan Agro-Allied Industries is a pioneering agricultural company in
-                    Ibadan, dedicated to promoting sustainable farming practices and supporting local farmers. Partner
-                    with us to drive agricultural development in Ibadan." Call-to-Action (CTA): Explore Ibadan
-                    Agro-Allied Industries' Initiatives</p>
-            </div>
-            <div>
-                <h3>Spotlight 3:</h3>
-                <p>Company: Wemabank Plc Industry: Banking and Finance Description: "Empowering businesses, enriching
-                    lives. Wemabank Plc is a leading financial institution in Ibadan, offering innovative banking
-                    solutions to individuals and businesses. Discover how we can support your financial goals and
-                    aspirations." Call-to-Action (CTA): Learn More about Wemabank Plc's Business Solutions</p>
-            </div>
+            
         </section>
+        <div id="banner" style="display: none;">
+            <p>Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.!</p>
+            <button id="close-banner">❌ Close</button>
+          </div>
     </main>
     <footer>
         <div class="footerDiv">
